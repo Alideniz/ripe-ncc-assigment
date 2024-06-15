@@ -1,0 +1,25 @@
+.fadeInText {
+    animation: fadeInText 1s;
+}
+
+.fadeOutText {
+    animation: fadeOutText 1s;
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fadeOutText {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
